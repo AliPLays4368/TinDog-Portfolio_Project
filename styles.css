@@ -1,0 +1,170 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*HEADING*/
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Container*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #FFFFFF;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
+
+/* NAVIGATION VAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+/* DOWNLOAD BUTTONS*/
+.down-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE */
+#title {
+  text-align: left;
+}
+
+.title-container-fluid{
+padding: 3% 15% 7%;
+}
+
+/* TITLE IMAGE */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+  }
+}
+
+/*FEATURES*/
+#features {
+  position: relative;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+/*Press section */
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 30px 30px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 160px;
+}
+
+.button-width {
+  width: 100%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*footer*/
+
+.footer-logos {
+  margin: 20px 10px;
+}
